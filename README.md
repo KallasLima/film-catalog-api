@@ -6,6 +6,8 @@ A NestJS + TypeORM API for a personal film collection, with validated CRUD, pagi
 
 This is a refreshed portfolio edition of an earlier technical exercise. The current implementation, demo data and interface were revised in 2026. It is a local learning/demo application; deployment, accounts and production operations are outside its scope.
 
+The cinematic console styles the actual Swagger operations and schemas. Request bodies have explicit accessible labels; endpoint expansion remains keyboard-operable. Barlow Condensed and IBM Plex Mono are bundled under the SIL Open Font License with notices in `public/fonts`.
+
 ## Run
 
 Requires Node.js 22.13+ (tested with 22.23.4) and npm. The local database uses SQLite via `sql.js`, so no remote credentials, Docker daemon or native database install is needed.
